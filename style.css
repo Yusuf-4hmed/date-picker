@@ -1,0 +1,67 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.date-picker {
+    border: 1px solid black;
+    height: 330px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px auto 0px auto;
+}
+
+.search {
+    padding: 10px 0px;
+}
+
+.search-input {
+    width: 200px;
+    height: 30px;
+}
+
+.search-button {
+    width: 30px;
+    height: 34px;
+}
+
+.calendar {
+
+}
+
+.month-year {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.previous-month, .next-month {
+    height: 30px;
+}
+
+.current-month-year {
+    margin: auto 34px
+}
+
+.days {
+    display: flex;
+    gap: 10px;
+    height: 50px;
+}
+
+.days h2 {
+    padding: 0px 0px 0px 4px;
+    font-size: 23px;
+}
+
+.dates {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.dates div {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+}
